@@ -44,8 +44,8 @@ const setDeadTime = () => {
 
     function updateClock() {
         const t = getDeadTime();
-        years.innerHTML = getZero(t.days);
-        months.innerHTML = getZero(t.days);
+        years.innerHTML = getZero(t.years);
+        months.innerHTML = getZero(t.months);
         days.innerHTML = getZero(t.days);
         hours.innerHTML = getZero(t.hours);
         minutes.innerHTML = getZero(t.minutes);
